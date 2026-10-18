@@ -9,6 +9,15 @@ REGION_QUOTA = {"ES": 45, "PT": 25, "INT": 25}   # máx. noticias candidatas env
 CHUNK = 30          # noticias por llamada a la IA
 MAX_NEWS = 30       # máx. noticias por edición
 
+SECTION_ORDER = ["mercado", "actualidad", "innovacion", "interprofesional", "agenda"]
+SECTIONS = {
+    "mercado": {"label": "El pulso del mercado", "color": "#236B4A"},
+    "actualidad": {"label": "Actualidad del sector", "color": "#245B8A"},
+    "innovacion": {"label": "Innovación en el campo", "color": "#8A5A20"},
+    "interprofesional": {"label": "La voz de la interprofesional", "color": "#7A3B72"},
+    "agenda": {"label": "Agenda", "color": "#5C6A60"},
+}
+
 
 def env(name, default=""):
     """Lee una variable de entorno sin distinguir mayúsculas (Brevo_API_KEY = BREVO_API_KEY)."""
@@ -62,6 +71,14 @@ GOOGLE_QUERIES = [
     ("INT", "blueberries OR raspberries OR strawberries market (Spain OR Morocco OR Peru OR Portugal)"),
     ("INT", '"table grapes" market OR "persimmon" market'),
     ("INT", 'citrus (tariff OR pest OR greening OR "black spot") Europe'),
+    ("ES", '(naranja OR mandarina OR kaki OR caqui OR "frutos rojos" OR uva) (site:freshplaza.es OR site:freshplaza.com OR site:fruittoday.com OR site:hortiespana.com OR site:interempresas.net OR site:agroinformacion.com)'),
+    ("ES", '(naranja OR mandarina OR cítricos) (site:intercitrus.org OR site:valenciafruits.com OR site:fepex.es)'),
+    ("ES", '(fresa OR arándano OR frambuesa OR "frutos rojos") (site:interberry.es OR site:freshuelva.es OR site:fepex.es)'),
+    ("ES", '"uva de mesa" (site:apoexpa.es OR site:fepex.es)'),
+    ("ES", '(kaki OR caqui OR persimon) (site:aekaki.es OR site:fepex.es)'),
+    ("ES", '(precio OR precios OR cotización) (naranja OR mandarina OR kaki OR uva OR fresa OR arándano) (site:mapa.gob.es OR site:olimerca.com)'),
+    ("ES", '(jornada OR feria OR congreso OR Fruit Attraction OR Fruit Logistica) (fruta OR cítricos OR uva OR berries) (site:fepex.es OR site:freshplaza.es OR site:interempresas.net OR site:agro-alimentarias.coop)'),
+    ("ES", '(riego OR plagas OR innovación OR tecnología OR sostenibilidad) (fruta OR cítricos OR uva OR berries) (site:interempresas.net OR site:phytoma.com)'),
 ]
 
 # RSS directos de prensa del sector (por verificar: el primer arranque muestra cuáles funcionan)
@@ -70,3 +87,11 @@ FEEDS = [
     ("ES", "https://www.agroinformacion.com/feed/"),
     ("ES", "https://www.agrodigital.com/feed/"),
 ]
+
+TRUSTED_DOMAINS = {
+    "freshplaza.es": "actualidad", "freshplaza.com": "actualidad", "fruittoday.com": "actualidad", "fruitoday.com": "actualidad",
+    "hortiespana.com": "actualidad", "interempresas.net": "innovacion", "agroinformacion.com": "actualidad",
+    "intercitrus.org": "interprofesional", "valenciafruits.com": "interprofesional", "interberry.es": "interprofesional",
+    "freshuelva.es": "interprofesional", "apoexpa.es": "interprofesional", "aekaki.es": "interprofesional",
+    "fepex.es": "interprofesional", "agro-alimentarias.coop": "interprofesional", "mapa.gob.es": "mercado", "olimerca.com": "mercado", "phytoma.com": "innovacion",
+}

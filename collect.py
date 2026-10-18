@@ -1,10 +1,25 @@
 import re, html, difflib, datetime as dt
-from urllib.parse import quote_plus
+from urllib.parse import quote_plus, urlparse
 import feedparser, requests
 from config import *
 
 UA = {"User-Agent": "Mozilla/5.0 (compatible; FrutaAlDia/1.0)"}
 KW = re.compile(r"\b(?:" + "|".join(re.escape(norm(w)) for ws in CROP_WORDS.values() for w in ws) + ")")
+
+
+def source_section(link="", source=""):
+    host = urlparse(link or "").netloc.lower().split(":")[0]
+    for domain, section in TRUSTED_DOMAINS.items():
+        if host == domain or host.endswith("." + domain):
+            return section
+    text = norm(source)
+    if any(x in text for x in ("mapa", "olimerca", "precio")):
+        return "mercado"
+    if any(x in text for x in ("interempresas", "phytoma")):
+        return "innovacion"
+    if any(x in text for x in ("intercitrus", "interberry", "freshuelva", "apoexpa", "aekaki", "fepex")):
+        return "interprofesional"
+    return "actualidad"
 
 
 def _clean(s):
@@ -24,8 +39,10 @@ def to_item(e, region):
         snippet = ""
     ts = e.get("published_parsed") or e.get("updated_parsed")
     pub = dt.datetime(*ts[:6], tzinfo=dt.timezone.utc) if ts else None
-    return {"title": title, "source": source, "link": e.get("link", ""), "snippet": snippet,
-            "published": pub.isoformat() if pub else None, "region": region}
+    link = e.get("link", "")
+    return {"title": title, "source": source, "link": link, "snippet": snippet,
+            "published": pub.isoformat() if pub else None, "region": region,
+            "section_hint": source_section(link, source)}
 
 
 def dedupe(items, key="title"):

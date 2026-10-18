@@ -18,7 +18,7 @@ DEMO = [
 
 def demo_edition():
     today = dt.datetime.now(config.TZ).date().isoformat()
-    items = [{"cultivo": c, "pais": p, "importancia": n, "titular": t, "resumen": r, "fuente": "Fuente de ejemplo",
+    items = [{"cultivo": c, "seccion": "actualidad", "pais": p, "importancia": n, "titular": t, "resumen": r, "fuente": "Fuente de ejemplo",
               "link": "https://example.com/noticia", "publicado": None} for c, p, n, t, r in DEMO]
     return {"date": today, "items": items, "ia": True, "email_sent": False, "demo": True}
 

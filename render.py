@@ -23,6 +23,11 @@ def groups(items):
     return [(k, v, [i for i in items if i["cultivo"] == k]) for k, v in CROPS.items() if any(i["cultivo"] == k for i in items)]
 
 
+def section_groups(items):
+    return [(k, SECTIONS[k], [i for i in items if i.get("seccion", "actualidad") == k])
+            for k in SECTION_ORDER if any(i.get("seccion", "actualidad") == k for i in items)]
+
+
 CSS = """:root{--paper:#F5F7F0;--ink:#18271D;--muted:#5C6A60;--line:#D6DCCF;--link:#1D5B3A}
 @media (prefers-color-scheme:dark){:root{--paper:#111915;--ink:#E7EEE5;--muted:#98A89C;--line:#27342B;--link:#8FD3A8}}
 *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.6 "Source Serif 4",Georgia,serif}
@@ -61,9 +66,12 @@ def day_page(ed):
         body += '<p class="note">Edición de demostración con noticias ficticias.</p>'
     if not ed["items"]:
         body += "<p>Hoy no hay noticias relevantes.</p>"
-    for k, v, items in groups(ed["items"]):
-        body += f'<section><h2><span class="dot" style="--c:{v["color"]}"></span>{e(v["label"])}</h2>'
-        body += "".join(item_html(i) for i in items) + "</section>"
+    for sk, sv, section_items in section_groups(ed["items"]):
+        body += f'<section><h2><span class="dot" style="--c:{sv["color"]}"></span>{e(sv["label"])}</h2>'
+        for k, v, items in groups(section_items):
+            body += f'<h3 style="color:{v["color"]};margin:1.2rem 0 .3rem">{e(v["label"])}</h3>'
+            body += "".join(item_html(i) for i in items)
+        body += "</section>"
     if not ed.get("ia", True):
         body += '<p class="note">Edición generada sin resumen de IA: se muestran los titulares originales.</p>'
     return page(f'{SITE_NAME}, {fecha(ed["date"])}', body)
@@ -123,8 +131,9 @@ def email_html(ed, site_url):
         h += f'<tr><td style="color:{muted};font-size:13px;padding-bottom:12px">Edición sin resumen de IA: titulares originales.</td></tr>'
     h += f'<tr><td style="font-size:18px;font-weight:bold;padding-bottom:10px">Lo más importante</td></tr>' + "".join(row(i, True) for i in top)
     rest = [i for i in ed["items"] if i not in top]
-    for k, v, items in groups(rest):
-        h += f'<tr><td style="font-size:16px;font-weight:bold;color:{v["color"]};padding:8px 0 10px">{e(v["label"])}</td></tr>' + "".join(row(i) for i in items)
+    for sk, sv, section_items in section_groups(rest):
+        h += f'<tr><td style="font-size:17px;font-weight:bold;color:{sv["color"]};padding:12px 0 10px">{e(sv["label"])}</td></tr>'
+        h += "".join(row(i) for i in section_items)
     if site_url:
         h += f'<tr><td style="padding-top:8px;font-size:15px"><a href="{e(url(site_url))}{e(ed["date"])}.html" style="color:#1D5B3A">Ver la edición completa y el archivo</a></td></tr>'
     h += f'<tr><td style="color:{muted};font-size:12px;padding-top:20px">Si no quieres recibir más correos, responde a este mensaje indicándolo.</td></tr></table></div>'
