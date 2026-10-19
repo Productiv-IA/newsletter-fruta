@@ -2,8 +2,8 @@ name: Newsletter diaria
 
 on:
   schedule:
-    - cron: "15 5 * * *"   # 07:15 en verano (CEST)
-    - cron: "15 6 * * *"   # 07:15 en invierno (CET); el script evita duplicados
+    - cron: "0 5 * * *"   # 07:00 en verano (CEST)
+    - cron: "0 6 * * *"   # 07:00 en invierno (CET); el script evita duplicados
   workflow_dispatch:
     inputs:
       dry_run:
