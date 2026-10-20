@@ -1,0 +1,73 @@
+{
+ "date": "2026-10-20",
+ "items": [
+  {
+   "cultivo": "citricos",
+   "seccion": "actualidad",
+   "pais": "España",
+   "importancia": 4,
+   "titular": "El temporal Adam causa daños en los cítricos y caquis de la Comunidad Valenciana",
+   "resumen": "El paso de la borrasca Adam ha golpeado los campos valencianos, provocando daños en producciones de cítricos, caquis, aguacates y hortalizas.",
+   "fuente": "20Minutos",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSXJFcGttWjNqMlhkaGpvRjdRYkFTWk9uRk1EVkVua0hiRFFJNkdjNWFHVzRkcUJIVWZqZlZKMGxjaGFuUDNRcFgyeFI3MWpCNzNseTMxa3dIMDZMWUhMM3pZclpZNlhrVGpOdUItR0t2cG01cHNlLUZWcE5BMnM1bURvaTRaUVZxMGliU1kwbjdrMlNCRVlXeVRyUmVrQnh4ZXBKNTJlVWVkUExNZWR5V1VkaVlyRW1QdW5sTEFrUlRDVFM3czBkSTNWRVpPdGlkM2h6NjZVZlkwNTdMeTZvQ1NDQXhpZw?oc=5",
+   "publicado": "2026-10-20T03:43:00+00:00"
+  },
+  {
+   "cultivo": "citricos",
+   "seccion": "actualidad",
+   "pais": "España",
+   "importancia": 4,
+   "titular": "LA UNIÓ advierte de importantes daños por la DANA en cítricos de la Safor y la Marina Alta",
+   "resumen": "La organización agraria ha alertado de pérdidas destacadas en explotaciones de cítricos, aguacates y hortalizas tras el paso del temporal en las comarcas valencianas de la Safor y la Marina Alta.",
+   "fuente": "Agronews Castilla y León",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5zVlprQkstLUpwRTlCN1FXeHVtME9kMy1veHZhaFlaR0hSS1ZHZ21ReXpaVHNYZ1NEa3lRd1ktVVJ3ZmE1RkJBR2hwMGJCR2NsMUJRdlA2MVhLYkluLTNZQi1EYldTZFZjNlVHMm5n?oc=5",
+   "publicado": "2026-10-19T17:00:48+00:00"
+  },
+  {
+   "cultivo": "citricos",
+   "seccion": "interprofesional",
+   "pais": "España",
+   "importancia": 4,
+   "titular": "LA UNIÓ reclama aranceles del 16% a los cítricos importados de terceros países",
+   "resumen": "La organización ha solicitado a la Comisión Europea la imposición de gravámenes del 16% a las importaciones citrícolas de países terceros para ayudar a compensar el encarecimiento de los costes de producción.",
+   "fuente": "Unión de Uniones",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdEVxeFIyRDA3dDBpZEJXejdtN1VTWTVGM3VnRVpPdGt3SnZiX1ZHOVgwbVpwM1JRZVRiaWtxZ3dLSlNmbDJYN0JGa0tDUnlwMk9xTXM2YlFSbk9DNEFwOVRUY1ktelljZ2J0aTJuSnZFM1YtVkI5cF9WNWdvaHFaTmtZNjU1dTRKaGlvNWNmdzV6ZHVEUGp1OFJjeUJmY3RCOUZvb1lMOV9ma0FXQ1JyaFpZTzk4NEFVc1hz?oc=5",
+   "publicado": "2026-10-19T16:36:04+00:00"
+  },
+  {
+   "cultivo": "citricos",
+   "seccion": "innovacion",
+   "pais": "España",
+   "importancia": 3,
+   "titular": "Aprovechamiento de la piel de cítricos para biorrefinería y economía circular",
+   "resumen": "El sector aborda cómo respaldar mediante datos los procesos de circularidad en la transformación y valorización de la piel de cítricos hacia su uso en biorrefinerías.",
+   "fuente": "IndustriAmbiente",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPX2dDSUs0MzNQSHRUSWtEWnMwZTlVckNSOElMZmNUWVhHbkpGekVrM1ZkeVJnek5NTy04RjQ5THNJcGQ5QkdfQVVhZmFZUXFfWG5leFdQNkNlTTdWTDkzWm5qZ05RVWxQOHM0T1pPQ05BdFNZVXkwTmVGamZmS3cwb0tEM0pDcVhJZWpZQ09OUGZMQQ?oc=5",
+   "publicado": "2026-10-19T17:01:57+00:00"
+  },
+  {
+   "cultivo": "frutos_rojos",
+   "seccion": "actualidad",
+   "pais": "España",
+   "importancia": 3,
+   "titular": "Hudisa expondrá la calidad de sus frutos rojos en SIAL 2026",
+   "resumen": "La compañía onubense acudirá a la feria internacional de alimentación SIAL 2026 para presentar su oferta basada en la innovación y calidad de sus frutos rojos.",
+   "fuente": "agrodiariohuelva.es",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORURsVzVJbGx4bmhnVUJuYXdlUHBsZFpNbUVpWWhKY2JPNVRFMmViWm40VkdwUFVLRkludk5QTUpsUGd0YXBILTZYcUs5dV84bzNWZjVXOGlJeW5QdHlfQzZvVVd2VUtkNWRiZE92dXNKZWo5OUFkaE1ydVpXN3NZaXRrRldUemVJblh3V2dCYUp4STkxdWJRZmN3ZkhEZ0pxVE1JUGRUWFM3VWlxM3ozTFJYRHBtcXBlcGY1ZmRMODhuOE5DWDMxV0IwYTI?oc=5",
+   "publicado": "2026-10-19T15:56:43+00:00"
+  },
+  {
+   "cultivo": "frutos_rojos",
+   "seccion": "mercado",
+   "pais": "Internacional",
+   "importancia": 3,
+   "titular": "El mercado global del arándano afronta una oferta más ajustada y precios al alza",
+   "resumen": "El comercio internacional de arándanos experimenta una reducción en los volúmenes de suministro disponibles, lo que está provocando un incremento de los precios.",
+   "fuente": "UkrAgroConsult",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTDJyQTFEUkFfZ3FuRjFJbFpUdVBPUWRubmN6UWJfaEtKRl9hMmFjR3IyVFRkV3kxN1QycG90ZFhYbGVUcmFuYzVhc3NVbHhBNWdBSEVZR2RKSkh2cjE2ZFJDTnpfUkJiUHpKODI5TXhaZ0JZckh4TVQ4bHoyM1libzJMeVh3bzZfQW9xZWhQZXhadWNrWTA2OUt3TDk5N3hxUXc?oc=5",
+   "publicado": "2026-10-19T13:25:42+00:00"
+  }
+ ],
+ "ia": true,
+ "email_sent": true
+}
