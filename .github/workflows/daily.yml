@@ -2,8 +2,11 @@ name: Newsletter diaria
 
 on:
   schedule:
-    - cron: "0 5 * * *"   # 07:00 en verano (CEST)
-    - cron: "0 6 * * *"   # 07:00 en invierno (CET); el script evita duplicados
+    # GitHub puede retrasar los cron ejecutados exactamente en punto.
+    # Se mantienen varias ventanas: main.py envía una sola vez por día.
+    - cron: "17 5 * * *"  # 07:17 en verano (CEST)
+    - cron: "17 6 * * *"  # 07:17 en invierno (CET)
+    - cron: "17 7 * * *"  # respaldo si GitHub retrasa alguna ejecución
   workflow_dispatch:
     inputs:
       dry_run:
