@@ -1,0 +1,29 @@
+{
+ "date": "2026-11-05",
+ "items": [
+  {
+   "cultivo": "uva",
+   "seccion": "actualidad",
+   "pais": "España",
+   "importancia": 3,
+   "titular": "Solicitan a la Conselleria de Agricultura un plan de choque para los viticultores valencianos ante la dramática crisis de rentabilidad",
+   "resumen": "Ante la dramática crisis de rentabilidad que atraviesan los viticultores de la Comunitat Valenciana, la Asociación Valenciana de Agricultores (AVA-ASAJA) reclama a la Conselleria de Agricultura un plan de choque, con la implicación del Gobierno españ",
+   "fuente": "www.agroinformacion.com",
+   "link": "https://agroinformacion.com/solicitan-a-la-conselleria-de-agricultura-un-plan-de-choque-para-los-viticultores-valencianos-ante-la-dramatica-crisis-de-rentabilidad/",
+   "publicado": "2026-11-04T11:53:40+00:00"
+  },
+  {
+   "cultivo": "uva",
+   "seccion": "interprofesional",
+   "pais": "España",
+   "importancia": 3,
+   "titular": "UvasdoceFresh preparada para su gran cita con las doce uvas",
+   "resumen": "La compañía alicantina afronta la campaña de Nochevieja con más de 20 formatos diferentes y una oferta varietal que supera las 30 referencias sin semillas... The post UvasdoceFresh preparada para su gran cita con las doce uvas appeared first on Valen",
+   "fuente": "www.valenciafruits.com",
+   "link": "https://valenciafruits.com/uvasdocefresh-preparada-gran-cita-doce-uvas/",
+   "publicado": "2026-11-04T06:47:00+00:00"
+  }
+ ],
+ "ia": false,
+ "email_sent": true
+}
