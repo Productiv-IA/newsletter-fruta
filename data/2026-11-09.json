@@ -1,0 +1,183 @@
+{
+ "date": "2026-11-09",
+ "items": [
+  {
+   "cultivo": "citricos",
+   "seccion": "actualidad",
+   "pais": "España",
+   "importancia": 4,
+   "titular": "Aemet eleva a naranja los avisos para toda Canarias por la llegada de una nueva borrasca",
+   "resumen": "La AEMET ha elevado a nivel naranja los avisos meteorológicos en todas las islas Canarias debido a la llegada de una nueva borrasca.",
+   "fuente": "elDiario.es",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTFVnREdqVExJM3I1MGg3RWVYcWt6a3BvR1FNQTJMOFJGYVpmaWJrcHV5azdKSlpHc1JrMW92bDBBRFMzcGFOU010cTFueHFYODBoYjR1SkJHb3dnR0t2a1hjWFB4Z0xJNm9fUXZlWDRHTklqUXljQmhTcnpKUzVmSnRUMjlyQVBkVjFId09Rc0R4OU9YTzMwZlo2U1ExYVRPQmR3OUYwUXVwSHhoRGJxbWJWR3TSAboBQVVfeXFMT1E4WkFlWEVkNy01YWN2WFdGTEZoQ3pjN2wyMV84VHNCa1pzLURDZ3lrR2RtZ3NVd3k1SkFYWm1iX0tvUHlTX0NWMllhSWIyRmotWENUNHFMVUFMMTlqS3RsNlJMcWgzRkhBUGNFVW1OLXdvV2xod2JJNHFUbnVhWjhMdVRMTk9qQkNvbE8ydE0zRXdxOWRIOTlNTThxQm5LWHFxYmlPTFpNS2t2LWR1bnJ0NXk3VVhiWjBR?oc=5",
+   "publicado": "2026-11-09T12:37:35+00:00"
+  },
+  {
+   "cultivo": "citricos",
+   "seccion": "actualidad",
+   "pais": "España",
+   "importancia": 4,
+   "titular": "Sevilla, en aviso naranja hasta medianoche: la Aemet alerta de hasta 80 litros esta tarde por la borrasca Bruna",
+   "resumen": "La AEMET mantiene en Sevilla un aviso naranja hasta la medianoche por la borrasca Bruna, con precipitaciones de hasta 80 litros.",
+   "fuente": "ABC",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUXdUNUlySW9mdnhYN2V1YURnalY3aUlOdnFwb1A4M3N5U0ZPQ21fNU9pTjF4M3FTaU9jSkRBeS1aVDhmMUhLdmJwTzR2N1NsaHIyQ2tOSnNmLXA5SzNiaE04VlNJZzU3NWRseFVJanloeEk2MHFhS1RtRDlPWDhkajh2R0sxeW15eV9rV1lNTDRUSlVjRjEzVlRfYVlLZ05MQkR3TVJPTHI2bWczalpJ0gG0AUFVX3lxTE1YN3FOOG9yZk9kellfeTJwX0Y2di1oSnEzdmFWeS1DbU5xNUI3LWtuZms1MjI0Zl9fdldMOGdMYmRnRUZJc2RJbXk2Z29vaHVCbXctMW9QM0xwNXBNRGdpc1lEeWFTM2psZmg5cDNSUldsZGI1dkl3a1BCbGhRMWFDdk9sTFdQWVc1Q3l1WEo0MzZjVWJKWUFVRHNWWFluZVAtNjBKYlYyZDVXMVdzVjMzb2xyTw?oc=5",
+   "publicado": "2026-11-09T11:34:55+00:00"
+  },
+  {
+   "cultivo": "citricos",
+   "seccion": "innovacion",
+   "pais": "Internacional",
+   "importancia": 4,
+   "titular": "Investigadores y agricultores de Florida combaten el greening cítrico",
+   "resumen": "Investigadores y agricultores de Florida trabajan conjuntamente para combatir el greening, una enfermedad que afecta a los cítricos.",
+   "fuente": "Farm Progress",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNS21UYnktN21Xc3FFdHRqanNIaDI0cVpFMmhPMW9VazdFQzJRUXRpN0F3Tm16VDhmNDhISEFZN3BISlctemJVS1dqOFlCa2lERFBmeC1sWmhyX29YY2xLdlNwVGtmY2hXY3NCMnVlNmh0M1VpbGNnWHUwcEtrN3VjWHJhSDFRbDUtZ0g1ZWlSSmFqMFQ5b0hz?oc=5",
+   "publicado": "2026-11-09T08:01:31+00:00"
+  },
+  {
+   "cultivo": "uva",
+   "seccion": "innovacion",
+   "pais": "España",
+   "importancia": 4,
+   "titular": "UVANOVA busca desarrollar una variedad de uva Aledo sin semillas mediante edición genómica",
+   "resumen": "UVANOVA trabaja en crear una nueva variedad de uva Aledo sin semillas usando técnicas de edición genómica.",
+   "fuente": "Revista Mercados",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUnh4V29pRFlKU085WHhiUjNwV0RfRmlfdGtnRHpKN19ZNWpNQkVDNkV5U2FqajkySl9DNUhfQ1BGWUw1MkJ4YmYtSjF2aTRwUzBEdWQ5SGxJLU1ETklqSEVpZDhFZTZsSzlvcmtyb2tMa29CUTRUWHNsNnhDYXVkOF9BNXB0LTRVdngzdVR0YUU5enB5eThWSjRYeDBzWVZ4N1BubTNzUUdXMGV6ZnRqdkhmaGJIVFctUEJB?oc=5",
+   "publicado": "2026-11-09T07:42:20+00:00"
+  },
+  {
+   "cultivo": "citricos",
+   "seccion": "actualidad",
+   "pais": "España",
+   "importancia": 3,
+   "titular": "Gustavo Ferrada, más de siete décadas de cítrico con la mirada puesta en nuevos mercados",
+   "resumen": "Gustavo Ferrada celebra más de 70 años en el sector cítrico y anuncia su estrategia para conquistar nuevos mercados.",
+   "fuente": "Valencia Fruits",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdy1PZkdWSzRwVG5UcjNRclFMdTFkNHk5OGt5eWxvU0trMi0tb1pLVXFFcmhPSnBzbWpJcnpybjlkUnhsMGwzRVNmYkllRXVxTmlaNFE5X2FNMzBpM3dzaHN1aS1uekwxLWtjSkY4TVE5Y1Atci0xQjd1ZjlSYVB1NHNGdjVTUHBfZENvMU1TaDNWMW44NmxOVVdYeTQyU1E?oc=5",
+   "publicado": "2026-11-09T13:34:39+00:00"
+  },
+  {
+   "cultivo": "uva",
+   "seccion": "actualidad",
+   "pais": "Internacional",
+   "importancia": 3,
+   "titular": "Las lluvias de El Niño afectan la cosecha de uva de mesa en el norte de Perú",
+   "resumen": "Las intensas lluvias de El Niño provocan pérdidas en la cosecha de uva de mesa en el norte peruano.",
+   "fuente": "FreshPlaza",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRm9USlBCVFpEZnEyd2g3LTFzbVB3Q3QzeXQzVHZGMENxYmxpSk8xampOdDdFcDFhOVhxcEluemN4VjdTeVJQWk5NMVFPcVJOWXpZTHpGcWVzRXJpV3BPb21fa0htenM3RVJXMWJmQlVMY09ZY3ZHcVhJTnZhZkNnZ0s5QmROYk5vMkkyWFNQLUdmOUozUGZ0R3pTUHg0WlgzdVUxWVVPUW1KVGhWcDhObWNSR2d4YmI2bTVrbVFB?oc=5",
+   "publicado": "2026-11-09T13:31:29+00:00"
+  },
+  {
+   "cultivo": "frutos_rojos",
+   "seccion": "interprofesional",
+   "pais": "España",
+   "importancia": 3,
+   "titular": "BerryAgro, consolida su liderazgo internacional en la consultoría y optimización de cultivos de frutos rojos",
+   "resumen": "BerryAgro refuerza su posición global como consultora líder en la optimización de cultivos de frutos rojos.",
+   "fuente": "COPE",
+   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOd1doQlVIekQ3QzNIVUdUZWEzOXdQcXRsdVdDYkRfNTNrQUVCVUdkZzVzOUtTc0JDYmZNVFBzVWtOaktlYnN1M0RWTkZpM21DMWZfOGRDQTIwRDFXNlhuT0xLRWlmMWNrenB4UFJKRzJQb3RRSkZycmNWd3FPbkpzSURYVFNzMXZJaGVxbEpxdUl2azlZQ3Y4alpxdTlPYXJ6a0FhT253eW5oNmNIQVlwOXRvZWVLdGJwZTAyOWo4enZOc2xvMndTb2FkMFRVUTR4LTNiMWJaSUgzMGNoNXRwVk1GbzY5aXF0M01sQTV3R1hUdF9QOGxsZ0F2UGt1azk3Q1lQeUczTTdjRkQwX3lla0Z30gGXAkFVX3lxTE1qeHd6ZnRabXMtYU9RWXI2enJlVVNXZk5FV0dXNU9ReFVyZnN5dDRCTXFlNko0anhSYnhYN1NhYU9vdkJMODhIYjhfVUhWVjlnVFQzZFJWQXRkaGJUYlFiMHpSTkQ4Y0NoNzhHd0l3b3VVWHRNazhxaTJWMVVMaHZiVTdCMHFfNC15OVdJNDJNMHhJaGpQSU9pSWJYOERGVWpBNW9KSDRFcWk0cWFWQ0xRUFhXamU5SklWZm43UGhORXpvVlI1UG5yQlFzNXBSWTRTY2tsdXQzdFpWQkZKdjdvUHc0V19mM3BJTmFlX2JOZDBObURlRnpHYV9PZzFxdngza3RLZzNyMDBxQWw5ZXZueTVGcnRmUQ?oc=5",
+   "publicado": "2026-11-09T13:23:45+00:00"
+  },
+  {
+   "cultivo": "frutos_rojos",
+   "seccion": "mercado",
+   "pais": "Internacional",
+   "importancia": 3,
+   "titular": "Los precios de los arándanos en origen caen casi un 40% y los lotes de alta calidad siguen escasos",
+   "resumen": "Los precios de los arándanos en origen disminuyen casi un 40%, mientras los lotes de alta calidad continúan escasos.",
+   "fuente": "Hortidaily",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPTGk0S1IwU25zVWlfWXlnNVc5dS13N1FCQzV5dG5xNE9XQWE5OU4tN0hBQ1NCYXlyT25QWG1FNDhwbjNjdi1KV0o2eDktaWpINVhuLWdGM09xS3V4UXQ3dEFXdWtySUxGR1NUYVktQ2tiOUlMdXJyUUx1ckJITTBtcHNUYk9uT1JhUndic3ZqejBIMm1LVUEzcHZGYXUyMHJEbU10TGw5QkNFUlEyZi02Wm84TVk2VVBVbHd4Q2p6TEVMMmZjZzgxOVVPYjV3QjNWWjJZd3Z5Mm9ZQQ?oc=5",
+   "publicado": "2026-11-09T12:59:20+00:00"
+  },
+  {
+   "cultivo": "citricos",
+   "seccion": "actualidad",
+   "pais": "Internacional",
+   "importancia": 3,
+   "titular": "Los cítricos de Sudáfrica acumulan 27 detecciones de mancha negra en lo que va de año",
+   "resumen": "En Sudáfrica se han registrado 27 casos de mancha negra en cultivos cítricos durante el presente año.",
+   "fuente": "Valencia Fruits",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa1JZOFpBUnY5cVI1SkpoWHpJM1VoTGpYMFhkWWt1OHFFRXJxTDBuQVN0M3pjUkRVZ3B2UzZDSUI5ZE4zemZDT2FsR3FkeFRyVmlsT3JSR1ZkMy10a1dKMHViVDdJWEo0Zms1LUdIRzRkOWJoWXl4WUhrWEFVN0Vid0ZlTnB0TXhWLVB1Slhsdk1rREx2MEVIeFdaNlJYNGZzWGIxVTJZSzUxWjBYQk9SQ2ZQbw?oc=5",
+   "publicado": "2026-11-09T11:48:47+00:00"
+  },
+  {
+   "cultivo": "frutos_rojos",
+   "seccion": "mercado",
+   "pais": "España",
+   "importancia": 3,
+   "titular": "Estado del Mercado - semana 45: oferta moderada de arándanos en Europa",
+   "resumen": "El informe de mercado de la semana 45 indica una oferta moderada de arándanos en el mercado europeo.",
+   "fuente": "Portal Frutícola",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE94NHN2YnFFVWNZT1FzdS1LOTZwNHQ0eWRiMjZUWThLZFJPWkdveG1VNEpzTlVkRDR1X2gxRlpVOEh2dFJyMlowZS0wUDlPeXd3aVJ0VnJfVktEWVRLeWFHNVVwZ3plYi1fY254STF2U1daSmxhZmFrR2ozdTZEUQ?oc=5",
+   "publicado": "2026-11-09T09:00:09+00:00"
+  },
+  {
+   "cultivo": "kaki",
+   "seccion": "actualidad",
+   "pais": "España",
+   "importancia": 3,
+   "titular": "La falta de CO₂ puede comprometer la disponibilidad de kaki durante las próximas semanas",
+   "resumen": "Una escasez de CO₂ podría reducir la disponibilidad de kaki en los próximos días.",
+   "fuente": "Valencia Fruits",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSjRCYUhlRFE4QjlQdXVHV0RUb3JIRV9HdnVrWmdBckQwTWtMOHh0WFNDWHNsWEFVd0pabzFESmxXZTlta0NrcWFZTkdoLUtVbVMxU3RJa1JWUUFpRHVqd2s0OHY0bWRXQmxnSG8wTHAtS2RsWGpEUTY2SEhxOWRMSmtCLXFRTHRMaTMxcE45SUUtR1dsSVR6NU5MQXJRQzI0RWVXdlllejFGX1EwZ2hqbTNfZENlNnpSSEx6dzZ0TUs0Zw?oc=5",
+   "publicado": "2026-11-09T08:38:57+00:00"
+  },
+  {
+   "cultivo": "uva",
+   "seccion": "mercado",
+   "pais": "Internacional",
+   "importancia": 3,
+   "titular": "Egipto incrementará sus exportaciones de uva de mesa a 225.000 toneladas",
+   "resumen": "Egipto planea aumentar sus exportaciones de uva de mesa hasta 225.000 toneladas.",
+   "fuente": "EastFruit",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYmJKdHdtQ0Y1d0cxWjRGcDJQenVRMlpleS1OWXh1SUdXZUtxSDdvRVBNYjcxU1dRazgzdnNuSUFTaGdMN21rLVNEYnowLVNkTVJTV0VSM0dkYWIwVXNrOEZPeTBzNEdmYlJ4UXBZZENya2lzMTlpR3lNY3pUSlpLVElteTh1cXVrWXFzYkJGWQ?oc=5",
+   "publicado": "2026-11-09T07:40:26+00:00"
+  },
+  {
+   "cultivo": "citricos",
+   "seccion": "actualidad",
+   "pais": "España",
+   "importancia": 3,
+   "titular": "La planta de cítricos de Bermejo cumplirá 11 años sin operar",
+   "resumen": "La planta de cítricos de Bermejo permanecerá cerrada durante 11 años.",
+   "fuente": "El País Tarija",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQ2J1QTVyaDdiSG1iU0M1WnBkaE1tdndQbkNtN2x5QXVYck1UdUxXbUx5QlB3aDNXQkxWNzVYOFZNNXFxLWU0ME5kNHQwSkpKMURtNmdObFNtaTF0X0pmVHJrenJ5WDRQYm1SVW5NVWpMYVVvX2ZkY1ZMaS1vLVV6b0JtYWFfUlpFeXd6ZmlfNHZKcHdTYWhfWHd2dDhpaVE1?oc=5",
+   "publicado": "2026-11-09T04:46:47+00:00"
+  },
+  {
+   "cultivo": "citricos",
+   "seccion": "agenda",
+   "pais": "España",
+   "importancia": 2,
+   "titular": "Orihuela acoge las V Jornadas de Cítricos de ASAJA Alicante",
+   "resumen": "Orihuela será la sede de la quinta edición de las Jornadas de Cítricos organizadas por ASAJA Alicante.",
+   "fuente": "Activa Orihuela",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNakxSVVJsQ2VkRnV1c1I0c0x1aHA0M3Z1Qkt6cGlmQ3BJZC15RmNnOUtWeEd3YzlPRkxCZ0xKS0VpUWlfSktPbU0yTnF3dlNoQlJpNTl3VnY3SFN5NVB5NlRFR2pQbkhuX0JPNXpQWXQ2MDJMdnR6c011aTZOejM1d0FIM1V4NGxYcFlxZktaSQ?oc=5",
+   "publicado": "2026-11-09T13:31:09+00:00"
+  },
+  {
+   "cultivo": "citricos",
+   "seccion": "actualidad",
+   "pais": "España",
+   "importancia": 2,
+   "titular": "¿Puede España revertir el declive de los cítricos?",
+   "resumen": "Se analiza la posibilidad de que España invierta la tendencia a la baja de la producción cítrica.",
+   "fuente": "Revista Mercados",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdEx2eGhfOUE4WUI4MUVsSlF0NmNPZjFMVktRMFlUOGc5eHZ0QmhDT05oNXRhOGhGZmcxUmN6ODV5T2V6TW9rbVVBeXdlblFFTF9PZDRKcXVDSUJ3Q2xLejhYWTZiY0tEOVBaVVJXQmFXdTZ4aFYzdzVaY2VnZHBlcVV6SQ?oc=5",
+   "publicado": "2026-11-09T08:27:37+00:00"
+  },
+  {
+   "cultivo": "citricos",
+   "seccion": "mercado",
+   "pais": "España",
+   "importancia": 2,
+   "titular": "Promueven el consumo de cítricos en temporada de frío",
+   "resumen": "Se impulsa la demanda de cítricos durante los meses fríos.",
+   "fuente": "Crónica de Xalapa",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeWprTm5FLXBXeC15ODNHelVWclRTZExuamcteEhjNklUMldaYWwxN0VVVWRHeDk2UkRLRUowUkd2YllXOHdzY0p4dDFKeE5Od0pZU2s3YUFwRTdHVjliR1FHM1Ytajc1b25JWC1uRldqT1VZdEVlMFhjODVQeTF2Yk5wbVFjR3BUNi1yVFhCaEloTVFF?oc=5",
+   "publicado": "2026-11-09T03:02:33+00:00"
+  }
+ ],
+ "ia": true,
+ "email_sent": true
+}
