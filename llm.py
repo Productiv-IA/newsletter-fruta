@@ -1,6 +1,6 @@
 import json, re, requests
 from config import *
-from collect import dedupe
+from collect import dedupe, is_relevant_item
 
 def providers():
     gem = env("GEMINI_MODEL")
@@ -65,6 +65,11 @@ def summarize(items):
             try:
                 it = chunk[int(n["id"])]
             except Exception:
+                continue
+            # La IA no puede reintroducir una candidata que el filtro
+            # hortofrutícola ya ha descartado ni clasificar como "otros" una
+            # edición limitada a los cuatro cultivos seleccionados.
+            if not is_relevant_item(it) or n.get("cultivo") not in ("citricos", "kaki", "frutos_rojos", "uva"):
                 continue
             pais = n.get("pais") if n.get("pais") in ("España", "Portugal", "Internacional") else \
                 {"ES": "España", "PT": "Portugal"}.get(it["region"], "Internacional")

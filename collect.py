@@ -6,6 +6,27 @@ from config import *
 UA = {"User-Agent": "Mozilla/5.0 (compatible; FrutaAlDia/1.0)"}
 KW = re.compile(r"\b(?:" + "|".join(re.escape(norm(w)) for ws in CROP_WORDS.values() for w in ws) + ")")
 
+# Una coincidencia aislada de una fruta también puede ser un color, una
+# prenda o una alerta meteorológica. Exigimos contexto profesional.
+SECTOR_CONTEXT = (
+    "agricult agricultur cultivo cultivos productor productores cosecha campaña "
+    "mercado mercados precio precios export exportacion import importacion "
+    "comercial comercializacion venta distribucion produccion empresa empresas "
+    "compania sector hortofrut fruta frutas citrico citricos campo agricultor "
+    "cooperativa cooperativas finca plantacion recoleccion variedad variedades "
+    "calibre toneladas hectarea hectareas plaga plagas enfermedad enfermedades "
+    "riego fertilizante fitosanitario vivero invernadero arancel aranceles "
+    "aduana logistica transporte normativa regulacion origen destino supermercado "
+    "cadena alimentaria innovacion tecnologia sostenibilidad feria congreso jornada"
+).split()
+OFF_TOPIC = (
+    "alerta naranja", "nivel naranja", "aviso naranja", "vestido", "vestidos",
+    "camiseta", "camisetas", "ropa", "moda", "pasarela", "maquillaje",
+    "perfume", "color", "colores", "decoracion", "receta", "recetas",
+    "cocina", "gastronomia", "postre", "vino", "bodega", "futbol",
+    "videojuego", "pelicula", "serie", "musica",
+)
+
 
 def source_section(link="", source=""):
     host = urlparse(link or "").netloc.lower().split(":")[0]
@@ -20,6 +41,30 @@ def source_section(link="", source=""):
     if any(x in text for x in ("intercitrus", "interberry", "freshuelva", "apoexpa", "aekaki", "fepex")):
         return "interprofesional"
     return "actualidad"
+
+
+def trusted_source(link="", source=""):
+    host = urlparse(link or "").netloc.lower().split(":")[0]
+    if any(host == d or host.endswith("." + d) for d in TRUSTED_DOMAINS):
+        return True
+    source_text = norm(source)
+    return any(d in source_text or d.split(".")[0] in source_text for d in TRUSTED_DOMAINS)
+
+
+def is_relevant_item(item):
+    """Descarta coincidencias de fruta sin relación hortofrutícola."""
+    title = norm(item.get("title", ""))
+    snippet = norm(item.get("snippet", ""))
+    text = f"{title} {snippet}"
+    if not KW.search(text):
+        return False
+    if any(term in text for term in OFF_TOPIC):
+        explicit_agriculture = any(term in text for term in ("cultiv", "agricult", "cosecha", "campana", "productor", "fruta", "hortofrut", "citric"))
+        if not explicit_agriculture:
+            return False
+    if trusted_source(item.get("link", ""), item.get("source", "")):
+        return True
+    return any(term in text for term in SECTOR_CONTEXT)
 
 
 def _clean(s):
@@ -80,7 +125,7 @@ def collect(hours=HOURS_BACK):
                 it["source"] = it["source"] or default_src
                 if it["published"] and dt.datetime.fromisoformat(it["published"]) < cutoff:
                     continue
-                if not KW.search(norm(it["title"] + " " + it["snippet"])):
+                if not is_relevant_item(it):
                     continue
                 items.append(it)
                 n += 1
